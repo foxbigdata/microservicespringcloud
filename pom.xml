@@ -45,5 +45,6 @@
   	<module>microservice-eureka-user</module>
   	<module>microservice-eureka-order</module>
   	<module>microservice-eureka-user-hystrix</module>
+  	<module>microservice-hystrix-dashboard</module>
   </modules>
 </project>

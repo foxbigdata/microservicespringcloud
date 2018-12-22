@@ -1,0 +1,6 @@
+server:
+  port: 8031   #指定该eureka实例的端口
+
+spring:
+  application:
+    name: microservice-hystrix-dashboard   #指定应用的名称
