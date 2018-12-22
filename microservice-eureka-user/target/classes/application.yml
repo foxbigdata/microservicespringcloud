@@ -1,0 +1,15 @@
+server:
+  port: 8888   #指定改Eureka示例的端口号
+ 
+eureka:
+  instance:
+    prefer-ip-address: false   #是否显示主机的IP地址信息
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}   #将服务示例设置为ip：端口号的形式
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/     #指定eureka服务端地址，找中介
+
+spring:
+  application:
+    name: microservice-eureka-user     #指定应用名称
+    
